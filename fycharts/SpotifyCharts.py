@@ -53,7 +53,7 @@ class SpotifyCharts(SpotifyChartsBase):
 				df = super().getTop200Weekly(theRange, region)
 
 				writeToCSV(j, file, df)
-				time.sleep(random.randint(0, j))
+				# time.sleep(random.randint(0, j))
 			j = j + 1
 
 
@@ -81,7 +81,7 @@ class SpotifyCharts(SpotifyChartsBase):
 				df = super().getTop200Daily(theRange, region)
 
 				writeToCSV(j, file, df)
-				time.sleep(random.randint(0, j))
+				# time.sleep(random.randint(0, j))
 
 			j = j + 1
 
@@ -111,7 +111,7 @@ class SpotifyCharts(SpotifyChartsBase):
 				df = super().getViral50Weekly(theRange, region)
 
 				writeToCSV(j, file, df)
-				time.sleep(random.randint(0, j))
+				# time.sleep(random.randint(0, j))
 
 			j = j + 1
 
@@ -139,7 +139,7 @@ class SpotifyCharts(SpotifyChartsBase):
 				df = super().getViral50Daily(theRange, region)
 
 				writeToCSV(j, file, df)
-				time.sleep(random.randint(0, j))
+				# time.sleep(random.randint(0, j))
 
 			j = j + 1
 
